@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "product 1",
+      "description": "description 1",
+      "price": "123",
+      "catalog_id": 1
+    }
+  ],
+  "catalogs": [
+    {
+      "id": 1,
+      "name": "catalog 1"
+    }
+  ],
+  "cart": [
+    {
+      "id": 0,
+      "session_id": "some session id",
+      "products": [
+        {
+          "productId": 0
+        }
+      ]
+    }
+  ]
+}
